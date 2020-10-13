@@ -11,7 +11,7 @@ export class Entity {
     return this._name;
   }
 
-  set location(newName: string) {
+  set name(newName: string) {
     this._name = newName;
   }
 
